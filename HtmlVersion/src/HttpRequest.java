@@ -90,7 +90,6 @@ final class HttpRequest implements Runnable {
 		}
 		os.close();
 		socket.close();
-
 	}
 
 	private static String contentType(String fileName) {
